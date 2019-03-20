@@ -1,0 +1,59 @@
+body {
+    background: #1c1b1c;
+}
+
+#container {
+    width: 350px;
+    background: #555;
+    margin: 40px auto;
+    /*auto代表左右自動*/
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#board li {
+    width: 70px;
+    height: 70px;
+    background: #333;
+    margin: 10px;
+    /*做拆開的動作*/
+    list-style: none;
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+    float: left;
+    /*自動由左開始排序*/
+}
+
+.clearfix {
+    clear: both;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    /*padding:與四個邊的距離*/
+
+}
+
+#reset {
+    width: 70%;
+    background: #444;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.o{
+    color: green !important;
+}
+
+.x{
+    color: red !important;
+}
