@@ -1,0 +1,28 @@
+body #dbprod{
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#dbprod a {
+    color: #00B7FF;
+}
+
+#dbprod .table {
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: center;
+}
+
+#dbprod v.table tr {
+    height: 35px;
+    border-bottom: 1px solid #dddddd;
+}
+
+#dbprod .table tr th {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+#dbprod .table tr td {
+    padding: 0 10px;
+}
